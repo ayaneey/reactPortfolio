@@ -14,7 +14,7 @@
 .text-box {
 	position: absolute;
 	top: 22%;
-	margin-left: 10%;
+	margin-left: -15%;
 	transition: all 1s ease-in-out;
 	@apply font-sans;
 }
@@ -28,7 +28,7 @@
 	line-height: 160px;
 	margin-left: -10px;
 	color: transparent;
-	-webkit-text-stroke: 1px rgb(77, 18, 97);
+	-webkit-text-stroke: 4px rgb(161, 92, 183);
 	background: url(../public/assets/back.png);
 	-webkit-background-clip: text;
 	background-position: 0 0;
@@ -45,7 +45,7 @@
 }
 
 .text-box .row:hover {
-	color: #000;
+	color: rgb(0, 0, 0);
 	cursor: pointer;
 }
 
@@ -57,7 +57,7 @@
 }
 
 .text-box a {
-	color: #fff;
+	color: rgb(255, 255, 255);
 	text-decoration: none;
 	padding: 0.5rem 1rem;
 	margin-right: 0.5rem;
