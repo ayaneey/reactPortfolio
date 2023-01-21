@@ -1,0 +1,71 @@
+.animated-text {
+	animation: typing 1s linear forwards;
+}
+
+@keyframes typing {
+	0% {
+		width: 0;
+	}
+	100% {
+		width: 100%;
+	}
+}
+
+.text-box {
+	position: absolute;
+	top: 22%;
+	margin-left: 10%;
+	transition: all 1s ease-in-out;
+	@apply font-sans;
+}
+
+.text-box p {
+	@apply text-5xl font-medium;
+}
+
+.text-box h1 {
+	@apply text-9xl font-black;
+	line-height: 160px;
+	margin-left: -10px;
+	color: transparent;
+	-webkit-text-stroke: 1px rgb(77, 18, 97);
+	background: url(../public/assets/back.png);
+	-webkit-background-clip: text;
+	background-position: 0 0;
+	animation: back 20s linear infinite;
+}
+@keyframes back {
+	100% {
+		background-position: 2000px 0;
+	}
+}
+
+.text-box h3 {
+	@apply text-3xl font-medium;
+}
+
+.text-box .row:hover {
+	color: #000;
+	cursor: pointer;
+}
+
+.text-box .row {
+	display: flex;
+	align-items: center;
+	flex-wrap: wrap;
+	margin-top: 30px;
+}
+
+.text-box a {
+	color: #fff;
+	text-decoration: none;
+	padding: 0.5rem 1rem;
+	margin-right: 0.5rem;
+	border: 2px solid #fff;
+}
+
+.text-box a span {
+	font-size: 30px;
+	line-height: 15px;
+	margin-left: 5px;
+}
