@@ -12,6 +12,7 @@ import project2 from "../public/assets/TheFootWorks.png";
 import back from "../public/assets/back.png";
 import filmFlix from "../public/assets/FilmFlix.png";
 import reactPortfolio1 from "../public/assets/React-Portfolio1.png";
+import weatherApp from "../public/assets/Weather-App.png";
 
 function Projects() {
 	return (
@@ -177,10 +178,46 @@ function Projects() {
 											</span>
 										</div>
 									</div>
+									{/* <!--Project 3--> */}
+									<div class="ml-8 rounded overflow-hidden shadow-lg duration-200 ease-in-out transform hover:scale-110">
+										<Image
+											style={{ cursor: "pointer" }}
+											onClick={() => {
+												window.location.href =
+													"https://ayaneey.github.io/Scope-Weather/";
+											}}
+											src={weatherApp}
+											width={120}
+											height={90}
+											layout="responsive"
+										/>
+										<div class="px-6 py-4">
+											<div class="font-bold text-xl mb-2">Scope Weather</div>
+											<p class="text-gray-700 text-base">
+												Scope Weather app is a simplistic app that provides
+												weather and weather forecast for 5 days in the week. It
+												includes a search functionality. As such, they should be
+												able get a glimpse of real-time updates on their desired
+												location.
+											</p>
+										</div>
+										<div class="px-6 pt-4 pb-2">
+											<span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">
+												#Javascript
+											</span>
+											<span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">
+												#Html
+											</span>
+											<span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">
+												#Bootstrap
+											</span>
+										</div>
+									</div>
 								</div>
 							</div>
 						</div>
 					</section>
+					<section></section>
 				</main>
 			</div>
 		</div>

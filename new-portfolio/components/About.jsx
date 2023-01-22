@@ -95,19 +95,22 @@ function About() {
 				<section className="mt-8">
 					<div>
 						<h3 className="text-3xl py-1">About Me</h3>
-						<p1 className="text-md py-2 leading-8 text-gray-800 rounded-md">
-							I'm a web developer with a focus on the{" "}
-							<span className="text-fuchsia-800">MERN stack</span>, but still
-							continuously learning and exploring other technologies and
-							frameworks. I have a background in teaching where I qualified 3
-							years ago and have been teaching since. My background involves a
-							lot of <span className="text-fuchsia-800">critical thinking</span>{" "}
-							and <span className="text-fuchsia-800">problem solving</span>,
-							which have been monumental for my coding journey. I recently
-							graduated from the University of Birmingham Full-Stack coding
-							bootcamp. I am passionate about coding and solving challenges and
-							connecting with fellow programmers!
-						</p1>
+						<div className="py-2 rounded-md">
+							<p className="text-md leading-8 text-gray-800">
+								I'm a web developer with a focus on the{" "}
+								<span className="text-fuchsia-800">MERN stack</span>, but still
+								continuously learning and exploring other technologies and
+								frameworks. I have a background in teaching where I qualified 3
+								years ago and have been teaching since. My background involves a
+								lot of{" "}
+								<span className="text-fuchsia-800">critical thinking</span> and{" "}
+								<span className="text-fuchsia-800">problem solving</span>, which
+								have been monumental for my coding journey. I recently graduated
+								from the University of Birmingham Full-Stack coding bootcamp. I
+								am passionate about coding and solving challenges and connecting
+								with fellow programmers!
+							</p>
+						</div>
 					</div>
 				</section>
 
