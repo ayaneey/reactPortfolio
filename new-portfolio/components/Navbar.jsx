@@ -54,7 +54,7 @@ const Navbar = () => {
 						<li className="ml-10 text-sm uppercase hover:border-b">
 							<a
 								href="./assets/Ayan Ahmed - Full-Stack-Developer - CV.pdf"
-								Download
+								download
 							>
 								Resume
 							</a>
