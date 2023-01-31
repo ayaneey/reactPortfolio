@@ -6,8 +6,27 @@ import { BsFillPersonLinesFill } from "react-icons/bs";
 import { FaGithub, FaLinkedinIn } from "react-icons/fa";
 import { HiOutlineChevronDoubleUp } from "react-icons/hi";
 import ContactImg from "../public/assets/contact-me.jpg";
+import { annotate } from "rough-notation";
 
 const Contact = () => {
+	const contactRef = React.useRef(null);
+	const containerRef = React.useRef(null);
+
+	React.useEffect(() => {
+		const annotation = annotate(containerRef.current, {
+			type: "circle",
+			color: "#f59fea",
+			padding: 8,
+			animationDuration: 1000,
+		});
+
+		const showAnnotation = (annotation) => {
+			annotation.show();
+		};
+
+		showAnnotation(annotation);
+	}, []);
+
 	return (
 		<div id="contact" className="w-full lg:h-screen">
 			<div className="max-w-[1240px] m-auto px-2 py-16 w-full ">
@@ -67,6 +86,12 @@ const Contact = () => {
 										</a>
 									</Link>
 								</div>
+							</div>
+							<div
+								ref={containerRef}
+								style={{ height: "50px", width: "100px" }}
+							>
+								<p className="text-xl font-weight: 600;">Hire me?</p>
 							</div>
 						</div>
 					</div>
