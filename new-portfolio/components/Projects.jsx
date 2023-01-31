@@ -1,10 +1,10 @@
 import Image from "next/image";
 import Link from "next/link";
 import React from "react";
-import propertyImg from "../public/assets/projects/property.jpg";
-import cryptoImg from "../public/assets/projects/crypto.jpg";
+import filmFlix from "../public/assets/projects/FilmFlix.jpg";
+import passwordGen from "../public/assets/projects/PasswordGenerator.jpeg";
 import netflixImg from "../public/assets/projects/Netflix-Landing.jpg";
-import twitchImg from "../public/assets/projects/twitch.jpg";
+import weatherApp from "../public/assets/projects/ReactWeatherApp.jpg";
 import ProjectItem from "./ProjectItem";
 
 const Projects = () => {
@@ -17,16 +17,16 @@ const Projects = () => {
 				<h2 className="py-4">What I&apos;ve Built</h2>
 				<div className="grid md:grid-cols-2 gap-8">
 					<ProjectItem
-						title="Property Finder"
-						backgroundImg={propertyImg}
-						projectUrl="/property"
+						title="FilmFlix"
+						backgroundImg={filmFlix}
+						projectUrl="/filmflix"
 						tech="React JS"
 					/>
 					<ProjectItem
-						title="Crypto App"
-						backgroundImg={cryptoImg}
-						projectUrl="/crypto"
-						tech="React JS"
+						title="Password Generator"
+						backgroundImg={passwordGen}
+						projectUrl="/password"
+						tech="Javascript"
 					/>
 					<ProjectItem
 						title="Netflix App"
@@ -35,10 +35,10 @@ const Projects = () => {
 						tech="HTML CSS JS"
 					/>
 					<ProjectItem
-						title="Twitch UI"
-						backgroundImg={twitchImg}
-						projectUrl="/twitch"
-						tech="Next JS"
+						title="Foreseeit"
+						backgroundImg={weatherApp}
+						projectUrl="/weather"
+						tech="React JS"
 					/>
 				</div>
 			</div>
