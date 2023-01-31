@@ -7,8 +7,7 @@ import ReactImg from "../public/assets/skills/react.png";
 import Tailwind from "../public/assets/skills/tailwind.png";
 import Github from "../public/assets/skills/github1.png";
 import MongoDB from "../public/assets/skills/MongoDB.png";
-import NextJS from "../public/assets/skills/nextjs.png";
-import RestAPI from "../public/assets/skills/Rest-Api.png";
+import RestAPI from "../public/assets/skills/RestAPI.png";
 
 const Skills = () => {
 	return (
